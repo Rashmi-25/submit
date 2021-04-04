@@ -1,0 +1,142 @@
+
+
+#f:hover{background-color: black;}
+#f { font-size: 25px;}
+#s{margin-left: 90%;}
+
+ #btnl{ background:RGB(255, 255, 255);}
+ .myslide{display: none;}
+
+/*text over image*/
+.img {
+     position: relative;
+     text-align: center;
+     color: white;
+     font-style: bold;
+     border-radius: 20px;
+   }
+
+ .centered {
+
+     position:absolute;
+     top: 65%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 30px;
+     font-family:solid cursive;
+     text-shadow: 0px 0px 3px #000, -1px -1px #000, 1px 1px #000;
+ }
+
+#li1:hover {
+           color: blue;
+}
+
+#p1{ font-style: bold; font-size:20px;}
+
+/*scroll top button*/
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 110; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: black; /* Set a background color */
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 20px; /* Rounded corners */
+}
+
+#myBtn:hover {
+    background-color: blue; /* Add a dark-grey background on hover */
+}
+
+/*Today's top story div1*/
+.div1{
+     font-size: 16px;
+     font-family: Footlight MT;
+}
+h3 {margin-top:40px;
+  display:flex; font-size:33px;}
+h3:before, h3:after {
+  color:black;
+  content:' ';
+  flex:10;
+  border-bottom:groove;
+  margin:auto;
+  box-shadow: 3 ; /* ou 0 1px si border-style:ridge */
+}
+
+.imgdiv{
+  margin-left: 20%;
+
+}
+
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px; 
+}
+
+
+.col
+ {
+    flex-basis: 0;
+    flex-grow: 1;
+    max-width: 100%;
+ }
+  
+  .col-auto
+   {
+    flex: 0 0 auto;
+    width: auto;
+    max-width: none;
+ }
+  
+  .col-1
+   {
+    flex: 0 0 8.33333%;
+    max-width: 8.33333%; 
+  }
+
+  .serviceimages {
+    height: 110px;
+    width: 125px;
+    opacity: 1; }
+  
+  .serviceimages:hover {
+    height: 110px;
+    width: 125px;
+    opacity: 0.5; }
+
+    @media only screen and (max-width: 367px) {
+        .serviceimages {
+          height: 110px;
+          width: 125px; } }
+      
+      @media only screen and (max-width: 304px) {
+        .serviceimages {
+          height: 95px;
+          width: 120px; } }
+      
+      @media only screen and (max-width: 292px) {
+        .serviceimages {
+          height: 90px;
+          width: 115px; } }
+      
+          img {
+            vertical-align: middle;
+            border-style: none; }
+            
+ .no-gutters 
+ {
+    margin-right: 0;
+    margin-left: 0; }
+    .no-gutters > .col,
+                .no-gutters > [class*="col-"] {
+                  padding-right: 0;
+                  padding-left: 0; }

@@ -1,0 +1,14 @@
+body
+{
+    background-image: url('HEART.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100px;
+    background-position: center;
+}
+
+.text-primary
+{
+    font-family: 'Bad Script';font-size: 70px;
+    
+}
